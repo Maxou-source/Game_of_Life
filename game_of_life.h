@@ -21,6 +21,7 @@
 # include "libft/libft.h"
 # include "libft/ft_printf.h"
 # include <math.h> 
+# include <time.h>
 
 # define LEFT_CLICK 1
 # define RIGHT_CLICK 2
@@ -45,6 +46,7 @@ typedef struct s_vars
 } t_vars;
 
 
+void put_rectangle(t_data *data,t_vars *vars ,int x, int y, int color);
 void	my_mlx_pixel_put(t_data *data, int x, int y, int color);
 
 #endif
